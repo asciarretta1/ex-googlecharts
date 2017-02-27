@@ -19,7 +19,7 @@ var run = function run() {
     // set up type of chart and target of where to draw it
 
     var target = document.getElementById('chart_div');
-    var chart = new google.visualization.BarChart(target);
+    var chart = new google.visualization.PieChart(target);
     //var chart = new google.visualization.PieChart(target);
     drawChart(exercise.salaries, chart);
 };
